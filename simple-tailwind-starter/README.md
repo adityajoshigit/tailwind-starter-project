@@ -7,7 +7,7 @@ This is a boilerplate codebase to start basic website with Tailwind CSS. It uses
 - Install tailwindcss by running `npm install -D tailwindcss`. The `-D` flag is to set `tailwindcss` as a dev dependency and not required for production.
 - To create tailwind config file, execute `npx tailwindcss init`. This would create a tailwind.config.js file in the current project directory.
 - To have `tailwindcss` look at or detect tailwind classes, we need to specific where should it look for. This is done by adding `"**/src/**/*.{html,js,ts,jsx,tsx}"` and `"public/**/*.{html,js,ts,jsx,tsx}"` in the `contents` array inside of `tailwind.config.js` file. It will look like this -
-  ```json
+  ```js
   {
     // ...
     content: [
@@ -25,7 +25,7 @@ This is a boilerplate codebase to start basic website with Tailwind CSS. It uses
   @tailwind utilities;
   ``` 
 - Create npm scripts now by adding `twbuild` and `twdev` in the `scripts` tag inside `package.json` file as shown below.
-  ```json
+  ```js
   // ...
   "scripts": {
     // ...
