@@ -41,8 +41,8 @@ This is a boilerplate codebase to start basic website with Tailwind CSS. It uses
   <link rel="stylesheet" href="./dist/css/tailwind.css">
   ```
 - Write some demo html code with tailwind classes to check if the setup really works. 
-- Finally, open the `index.html` file with browser and __Voila__! 
+- Finally, open the `index.html` file with browser and __Voila__! ✨
 
 
 ## Credits
-Thank you [@bradtraversy](https://github.com/bradtraversy) for creating a [detailed course on TailwindCSS](https://www.udemy.com/course/tailwind-from-scratch/)! The starter project you demonstrated in the course has inspired me to create one for myself. So, the credit it all yours! 🙏
+Thank you [@bradtraversy](https://github.com/bradtraversy) for creating a [detailed course on TailwindCSS](https://www.udemy.com/course/tailwind-from-scratch/)! The starter project you demonstrated in the course has inspired me to create one for myself. So, the credit is all yours! 🙏
