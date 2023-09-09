@@ -1,0 +1,16 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "twbuild": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/css/tailwind.css",
+    "twdev": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
